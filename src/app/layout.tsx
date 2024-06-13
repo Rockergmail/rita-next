@@ -1,8 +1,17 @@
+/*
+ * @description: 
+ * @author: xiangrong.liu
+ * @Date: 2024-06-12 17:11:44
+ * @LastEditors: xiangrong.liu
+ * @LastEditTime: 2024-06-12 18:15:03
+ */
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
+
+const yes = '123';
 
 export const metadata: Metadata = {
   title: "Create Next App",
